@@ -50,7 +50,6 @@ class RestaurantTest {
         List<String> selectedItems = new ArrayList<>();
         selectedItems.add("Sweet corn soup");
         selectedItems.add("Plain rice");
-        
         int totalAmount = restaurant.getTotalAmount(selectedItems);
         assertEquals(319,totalAmount);   	
     }
